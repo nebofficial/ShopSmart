@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+frontend/.angular/
+
+# Environment & secrets
+backend/.env
+
+# Uploads (user-generated content)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+*.tmp
+*.bak
